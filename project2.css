@@ -65,13 +65,16 @@ header nav span a {
     text-shadow: 2px 3px 4px rgb(48, 48, 48);}
 
 .aboutUs ,.ourServices {
-    padding: 30px 30px 30px 30px;
+    padding: 30px 70px 30px 70px;
+    display: left;
+    text-align: justify;
 }
 
 .roundhr {
     border-radius: 6px;
     text-align: left;
-    margin-left: 1;
+    margin-left: 8px;
+
 }
  
 .aboutUs div,.ourServices div {
@@ -92,4 +95,23 @@ header nav span a {
     margin: auto;
     display: block;
 
+}
+
+.ourServices li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 24px!;
+    display: list-item;
+    text-align: center;
+}   
+
+.leftTable {
+    float: left;
+    width: 50%;
+}
+
+.righTable {
+    float: left;
+    width: 50%;
+    text-decoration: none;
 }
