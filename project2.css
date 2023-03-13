@@ -97,21 +97,66 @@ header nav span a {
 
 }
 
+.serviceContainer img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
 .ourServices li {
-    padding: 8px 16px;
+    padding: 10px 18px;
     border-bottom: 1px solid #ddd;
     padding-top: 24px!;
     display: list-item;
     text-align: center;
-}   
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
 
 .leftTable {
     float: left;
     width: 50%;
+    text-decoration: none;
 }
 
 .righTable {
     float: left;
     width: 50%;
     text-decoration: none;
+}
+
+#basicPlan {
+    font-size: 25px;
+    font-weight: 800;
+    background-color: rgb(212, 212, 212);
+}
+
+#proPlan {
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(70, 70, 255);
+}
+
+.signUpButton {
+    margin: 0;
+    padding: 0.5rem 1rem;
+  
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+  
+    display: inline-block;
+    width: auto;
+  
+    border: none;
+    border-radius: 4px;
+    
+    box-shadow: 0 px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: 0.5s;
 }
